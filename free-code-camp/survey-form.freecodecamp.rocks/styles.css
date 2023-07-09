@@ -1,5 +1,42 @@
+/*
+
+Used resources
+https://www.freecodecamp.org/
+https://codeprozone.com/code/css/149803/Css-poppins-font.html
+
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); 
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    background-color: #6768A0; 
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+
+}
+h1, p {
+
+    text-align: center; 
+  }
+
 h1{
-    color: green;
+    margin: 1.7em 0 0.4em 0;
+
+
+}
+p{
+    margin: 0 0 2em 0;
+}
+
+form{
+    background-color: #282846;
+    width: 720px;
+    margin: 0 auto;
+    border-radius: 5px;
 }
 fieldset{
     border: none;
